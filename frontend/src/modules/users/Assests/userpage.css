@@ -1,0 +1,13 @@
+.container{
+    height: 21rem ;
+    width: 50vh;
+    margin: 10% auto;
+    background-color: lightgray !important;
+}
+h1{
+    padding: 5px;
+    margin: 20px;
+}
+.button{
+    margin: 15px;
+}
