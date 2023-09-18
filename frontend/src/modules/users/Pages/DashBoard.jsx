@@ -3,8 +3,9 @@ import Calender from '../components/Calender'
 
 const DashBoard = () => {
   return (
-    // <Calender/>
-    <></>
+    <div>
+      <Calender />
+    </div>
   )
 }
 

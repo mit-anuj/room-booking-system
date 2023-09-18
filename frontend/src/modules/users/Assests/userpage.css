@@ -11,3 +11,8 @@ h1{
 .button{
     margin: 15px;
 }
+.booking-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
