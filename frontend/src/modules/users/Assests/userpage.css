@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container{
     height: 21rem ;
     width: 50vh;
@@ -10,4 +11,23 @@ h1{
 }
 .button{
     margin: 15px;
+=======
+.container{
+    height: 50vh ;
+    width: 50vh;
+    margin: 13% auto;
+    background-color: lightgray !important;
+}
+h1{
+    padding: 5px;
+    margin: 20px;
+}
+.button{
+    margin: 15px;
+}
+.booking-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+>>>>>>> @page/add-booking
 }
