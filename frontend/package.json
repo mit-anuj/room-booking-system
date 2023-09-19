@@ -5,15 +5,12 @@
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
-<<<<<<< HEAD
     "@mui/icons-material": "^5.14.9",
     "@mui/lab": "^5.0.0-alpha.144",
     "@mui/material": "^5.14.8",
-=======
     "@mui/lab": "^5.0.0-alpha.144",
     "@mui/material": "^5.14.8",
     "@mui/styled-engine-sc": "^5.14.9",
->>>>>>> @page/add-booking
     "@mui/utils": "^5.14.9",
     "@mui/x-date-pickers": "^6.14.0",
     "@testing-library/jest-dom": "^5.17.0",
@@ -24,10 +21,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.16.0",
     "react-scripts": "5.0.1",
-<<<<<<< HEAD
-=======
     "styled-components": "^5.3.11",
->>>>>>> @page/add-booking
     "web-vitals": "^2.1.4"
   },
   "scripts": {
