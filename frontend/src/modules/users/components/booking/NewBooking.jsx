@@ -1,16 +1,16 @@
 import React from "react";
 import styles from "./NewBooking.module.css";
 
-function NewBooking() {
+function NewBooking({ selectedDay }) {
   return (
     <div className={`${styles.main}`}>
       <div>
-        <h2>Make a booking</h2>
+        <h2>Make a booking at {selectedDay}</h2>
       </div>
       <form>
         <div>
           <div className={`${styles.input_grp}`}>
-            <label for="recurring">Recurring (optional)</label>
+            <label htmlFor="recurring">Recurring (optional)</label>
             <select id="recurring" name="recurring">
               <option value="daily">Daily(weekdays only)</option>
               <option value="weekly">Weekly</option>
@@ -19,7 +19,7 @@ function NewBooking() {
           </div>
 
           <div className={`${styles.input_grp}`}>
-            <label for="business">Business Unit</label>
+            <label htmlFor="business">Business Unit</label>
             <select id="business" name="business">
               <option value="bu1">Business Unit 1</option>
               <option value="bu2">Business Unit 2</option>
@@ -28,16 +28,16 @@ function NewBooking() {
               <option value="bu5">Business Unit 5</option>
             </select>
           </div>
-          
+
           <div className={`${styles.input_grp}`}>
-            <label for="purpose">Select a purpose</label>
+            <label htmlFor="purpose">Select a purpose</label>
             <select id="purpose" name="purpose">
               <option value="adhoc">Adhoc Event</option>
               <option value="class">Class</option>
               <option value="event">Special Event</option>
             </select>
           </div>
-          
+
           <div className={`${styles.input_grp}`}>
             <label htmlFor="">Description</label>
             <input type="text" />
@@ -47,7 +47,6 @@ function NewBooking() {
             <button type="submit">Book</button>
             <button type="submit">Reset</button>
           </div>
-
         </div>
       </form>
     </div>
